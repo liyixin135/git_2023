@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "命令行环境"
+title: 命令行环境
 date: 2022-10-19
 ready: true
 sync: true
@@ -9,8 +9,8 @@ video:
   aspect: 56.25
   id: e8BO_dYxk5c
 solution:
-    ready: true
-    url: command-line-solution
+  ready: true
+  url: command-line-solution
 ---
 
 # 开课注解
