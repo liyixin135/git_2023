@@ -1,0 +1,31 @@
+问题一：回退部分文件的修改，恢复到修改前最后一次提交的状态
+
+
+
+`git checkout file.txt`
+
+
+
+    git restore file.txt
+
+问题二：回退已提交的新版本
+
+不修改历史：
+
+`git revert commit_hash`
+
+    git reset --mixed commit_hash
+
+修改历史的方式：
+
+`git reset --hard commit_hash`
+
+    git cherry-pick commit_hash
+
+问题三：合并分支的其他方式
+
+`git checkout branch1`
+`git rebase master`
+
+[[photo]](./home/jiangshangjiu/桌面/photo1.png)
+
