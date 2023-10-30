@@ -8,11 +8,18 @@
 -- git reset HEAD filepathname
 大约相当于git add 的反指令
 ## 2:
--- git reset --hard head\[参数\]
-* head指当前版本
-* head^指上一个版本
-* head^^指上上个版本
-* head~3指回退三个版本
+-- git reset --hard \[参数\]
+* head :当前版本
+* head^ :上一个版本
+* head^^ :上上个版本
+* head~3 :回退三个版本
+* 直接指代在git log中的哈希值 :回退到指定历史版本(也意味着移动head指针)
+(此修改会移除log中的commit信息)
+-- git revert \[参数\]
+* HEAD :上一次的提交
+* HEAD^ :上上次的提交
+* (指定版本哈希) :指定提交
+(此修改不移除log中commit参数,相反,它会增加一个commit来说明这次变动)
 
 ## 3:
 -- git rebase \[main line\] \[other lines\]
