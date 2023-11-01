@@ -9,5 +9,9 @@
 5. Typora编辑文档
 6. git add --all
 7. git commit -m"Add new file."
-8. git push -u origin 个人分支名
+8. git checkout master
+9. git merge 个人分支名
+10. git branch # 列出分支
+11. git branch -d 分支名 # 删除分支
+8. git push -u origin master
 
