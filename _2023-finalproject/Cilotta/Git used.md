@@ -37,5 +37,20 @@
 * (此处如果有冲突就要修改冲突)
 * 此方法将test上未add的文件强制搬到main中.
 
-![[git_use1.jpg]]
-![[git_use2.jpg]]
+![关于q1,q2的示意图](./pictures/git_use1.jpg)
+
+---
+
+![](./pictures/git_use2.jpg)
+
+---
+
+![关于q1,q2的演示](./pictures/ans_on_q1&q2.png)
+
+---
+
+![git rebase 的使用演示](./pictures/q3_git_rebase.png)
+
+---
+
+![git stash 的使用](./pictures/q3_git_stash.png)
