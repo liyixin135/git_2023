@@ -1,5 +1,5 @@
 ## 1 (1) git  log
-        ![/git_log.png]
+        !(/git_log.png)
 ## git reset --hard commit后字符串
 ## (2) git checkout -- file
 ## 2 不修改：
