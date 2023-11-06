@@ -13,7 +13,7 @@
 
 * 法一：可以使用 **git reset --hard HEAD <版本>** 回退到一个版本，修改内容不保留
 
-* 法二：可以使用 **git reset HEAD <版本>**回退到一个版本，但修改内容保留
+* 法二：可以使用 **git reset HEAD <版本>** 回退到一个版本，但修改内容保留
 
 ![q2.1.png](./Pictures/q2.1.png)
 ![q2.2.png](./Pictures/q2.2.png)
