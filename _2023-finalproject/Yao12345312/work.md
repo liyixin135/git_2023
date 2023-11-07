@@ -18,4 +18,4 @@
 - 如果不想通过输入指令来合并，可以通过开发工具`IDEA`
 来进行分支代码合并
 
-![rm](/home/huangjunyao/git_2023/_2023-finalproject/Yao12345312/1.jpeg)
+![rm](/git_2023/_2023-finalproject/Yao12345312/1.jpeg)
