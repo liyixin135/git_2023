@@ -16,17 +16,17 @@
 
 2. way2
 > git reset --soft a448e2e(版本号)
-> ![picture4](q2way2.png) 
+> ![picture4](q2way3.png) 
 
 
 ## answer 3
 1. way1
-> git merge change1
+> git revert HEAD
 > ![picture5](q3way1.png)
 
 1. way2
 > git rebase master change1   
 > 或git checkout change1    
 > git rebase master
-> ![picture6](q3way1.png)
+> ![picture6](q3way2.png)
 
