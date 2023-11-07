@@ -15,7 +15,7 @@
 > ![picture3](q2way1.png)  
 
 2. way2
-> git reset --soft a448e2e(版本号)
+> git revert HEAD
 > ![picture4](q2way3.png) 
 
 
