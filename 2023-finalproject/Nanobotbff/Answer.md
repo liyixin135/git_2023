@@ -5,24 +5,27 @@
 1. 使用git reset
 ```
 git reset --hard	
-#移除工作目录和暂存区的修改
 ```
+移除工作目录和暂存区的修改
+
 
 ```
 git reset --mixed
-#git reset的默认选项，取消暂存区的提交，保留本地修改
 ```
+git reset的默认选项，取消暂存区的提交，保留本地修改
 
 ```
 git reset --soft
-#保留工作目录的修改
 ```
+保留工作目录的修改
+
 
 2. 使用git checkout
 ```
 git checkout HEAD~2 -- <file>
-#'git checkout'可以撤销对工作目录的修改，恢复到最近的状态，而HEAD~2表示恢复到2次提交时的状态
 ```
+'git checkout'可以撤销对工作目录的修改，恢复到最近的状态，而HEAD~2表示恢复到2次提交时的状态
+
 **'git reset'对缓存区和工作目录进行修改，'git checkout'仅影响工作目录。**
 
 ---
@@ -39,8 +42,9 @@ git reset HEAD~1
 ```
 git log
 git revert <commit_id>
-#先查看提交历史，确定需要回到哪，在<>中输入那次的随机id
 ```
+先查看提交历史，确定需要回到哪，在<>中输入那次的随机id
+
 'git revert'会增加一个提交来改变，**修改历史**。
 
 ---
