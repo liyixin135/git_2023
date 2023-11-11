@@ -12,6 +12,6 @@
 ## git revert -n 版本号
 ![](/revert.png)
 ## 3  
-##  (1)  git checkout master
-##        git cherry-pick 分支上的commit
-##    (2)  使用IDEA进行合并
+##  (1)  git checkout [branch]
+##        git rebase master [branch]
+##    (2)  git merge --squash [branch]
