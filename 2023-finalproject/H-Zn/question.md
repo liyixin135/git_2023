@@ -1,32 +1,65 @@
-#第一题
+# 第一题
 
-##1  git reset --hard
-
-![1](/Q1-1.png)
+## (1):git reset --hard
 
 
-##2  git restore --staged .
-
-![2](/Q1-2.png)
+![1](./Q1-1.png)
 
 
-
-#第二题
-
-##1
-git revert -n 版本号
-
-##2
-git reset --hard
+## (2):git restore --staged .
 
 
-#第三题
-##1
+![2](./Q1-2.png)
+
+
+
+
+# 第二题
+
+## (1)不修改历史
+
+
+### git revert -n 版本号
+
+
+![2-1-1](./Q2-1-1.png)
+
+
+### git reset --hard
+
+
+![2-1-2](./Q2-1-2.png)
+
+
+
+## (2)修改历史
+
+
+### git reset --soft HEAD~1
+
+
+![2-2-1](./Q2-2-1.png)
+
+
+### git checkout HEAD~1
+
+
+![2-2-2](./Q2-2-2.png)
+
+
+
+# 第三题
+
+## (1)
+
 
 git checkout master
 git cherry-pick [提交编号]
 
-##2
+
+
+## (2)
 使用IDEA合并代码
+
 
 
