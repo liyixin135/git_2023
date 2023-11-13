@@ -57,9 +57,23 @@ git checkout master
 git cherry-pick [提交编号]
 
 
+![3-1](./Q3-1)
+
 
 ## (2)
-使用IDEA合并代码
+1.  git push --set-upstream origin [分支名】
+2.  在github上找到这个分支，开启pull request，然后合并分支
 
+
+![3-1](./Q3-2-2.1)
+
+
+![3-1](./Q3-2-2.2)
+
+
+![3-1](./Q3-2-2.3)
+
+
+![3-1](./Q3-2-2.4)
 
 
