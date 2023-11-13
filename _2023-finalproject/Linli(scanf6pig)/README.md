@@ -16,10 +16,10 @@
 ### 学习内容：
 1. 了解了git和github的区别git是一个版本管理工具，github是一个远程的版本代理仓库）
 2. 学会了:
- - 用 "git init" 把git加载入文件夹
- - 用"git add <file_name>" 把文件加入缓存区，使git能跟踪到它
- - 用"git commit" 把文件由缓存区提交到本地仓库
-3. 学了怎么配ssh密钥，和用 "git remote add <ssh_address>" 连接到远程仓库和 "git clone" 把别人远程仓库里的东西拉到本地
+ - 用 `git init` 把git加载入文件夹
+ - 用`git add <file_name>`把文件加入缓存区，使git能跟踪到它
+ - 用`git commit` 把文件由缓存区提交到本地仓库
+3. 学了怎么配ssh密钥，和用 `git remote add <ssh_address>` 连接到远程仓库和 `git clone` 把别人远程仓库里的东西拉到本地
 4. 了解了git的基本原理和怎么开pr
 
 ## 第四节课
@@ -33,17 +33,17 @@
 ### 学习内容：
 1. 知道了ROS系统的用处是用于机器人的开发，了解了node的概念和怎么运行一个node
 2. 了解了rostopic是什么，学会了:
- - 用 "rostopic list" 查看有哪些topic在活跃
- - 用"rostopic echo <topic_name>"来查看topic的消息 
- - 用"rostopic info <topic_name> 来查看这个话题的基本信息（如 订阅者和发布者等）
+ - 用 `rostopic list` 查看有哪些topic在活跃
+ - 用`rostopic echo <topic_name>`来查看topic的消息 
+ - 用`rostopic info <topic_name> `来查看这个话题的基本信息（如 订阅者和发布者等）
 3. 初步知道了订阅者和发布者的概念
-4. 学会了怎么搭建一个工作空间，和使用 "catkin build" 来对工作空间内的源码进行编译
+4. 学会了怎么搭建一个工作空间，和使用 `catkin build` 来对工作空间内的源码进行编译
 5. 学会了怎么用roslaunch运行一个包（理解为一个含有多个节点的集合），怎么读和写一个简单的launch文件。
 
 ## 第六节课
 
-###学习内容：
-1. 学了怎么用 "catkin create pkg <package_name> --catkin-deps <dependencies>"  搭建一个包
+### 学习内容：
+1. 学了怎么用 `catkin create pkg <package_name> --catkin-deps <dependencies>`  搭建一个包
 2. 学了怎么编写发布者，订阅者源码 （我在这里卡了两个星期，就因为把config打成了conjig，以后还是要仔细一点才行）
 3. 初步了解了rviz的一些栏 
 

@@ -31,7 +31,7 @@
 1. 使用 `git merge <branch_name>` 来合并分支。
 ![log_graph 合并前](./pictures/q3/w1/log_graph.png)
 ![merge 结果](./pictures/q3/w1/merge.png)
-![log_graph 合并后](./pictures/q3/w1/git_graph_result.png)
+![log_graph 合并后](./pictures/q3/w1/result.png)
 2. 使用 `git rebase <branch_name>` 来合并分支。
 ![初始时的git_log](./pictures/q3/w2/log_start.png)
 ![使用rebase后出现冲突](./pictures/q3/w2/rebase_conflict.png)
