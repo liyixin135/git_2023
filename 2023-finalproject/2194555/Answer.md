@@ -35,6 +35,8 @@
 `git reset --hard <commit-hash>`：将当前分支重置为`<commit-hash>`版本，并删除所有未提交的更改和暂存。
 注意此处，你需要替换`<commit-hash>`为你**想要回退至**的提交的哈希值（并不会回退此版本）
 
+![git reset --hard](./picture/git%20reset%20--hard.png)
+
 ---
 
 ### Q3：我们已经知道了合并分支可以使用 merge，但这不是唯一的方法，给出至少两种不同的合并分支的方式
@@ -42,15 +44,20 @@
 #### A3：
 
 1.使用 `git merge`
+
 `git merge <branch-name>`：将`<branch-name>`分支合并到当前分支。
 
+![git merge](./picture/git%20merge.png)
+
 2.使用 `git rebase`
+
 `git rebase <branch-name>`：将`<branch-name>`分支合并到当前分支。这个过程是通过临时**移除**一系列的提交（即当前分支上的提交），然后在目标分支的最新提交之后，再逐一**应用**这些提交。
 
 ![git rebase](./picture/git%20rebase.png)
 
 
 ###### end~~~
+
 ---
 ---
 ---
