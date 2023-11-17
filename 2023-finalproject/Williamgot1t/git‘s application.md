@@ -7,6 +7,7 @@
 用git reset可以撤销修改恢复到最后一次提交的状态
 
 git reset --hard  **
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/reset.png)
 
 #### 方式2: 使用 `git checkout` 恢复修改
 
@@ -15,6 +16,8 @@ git reset --hard  **
 git checkout -- file.txt（指定文件）
 
 git checkout . (恢复整个目录)
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/checkout.png)
+
 
 ### 2. 回退提交的两种方式：
 
@@ -23,18 +26,23 @@ git checkout . (恢复整个目录)
 git reset --hard ** 会丢弃修改
 
 没有 --hard则会保留修改
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/commit%20reset.png)
 
 #### 方式2: 使用 `git revert` 回退提交（修改历史）
 
  回退到前一个提交，保留修改，但创建一个新的反转提交
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/revert.png)
 
 ### 3. 合并分支的两种方式：
 
 #### 方式1: 使用 `git merge` 合并分支
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/merge.png)
 
 先切换到main主分支 在git merge 分支
 
 #### 方式2: 使用 `git rebase` 合并分支
+![img](https://github.com/Williamgot1t/William/blob/master/2023-finalproject/Williamgot1t/picture/rebase.png)
+
 
 方法与上面相同
 
