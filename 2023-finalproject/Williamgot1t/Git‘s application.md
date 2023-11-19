@@ -26,7 +26,7 @@ git checkout . (恢复整个目录)
 git reset --hard ** 会丢弃修改
 
 没有 --hard则会保留修改
-![img](./picture/commitreset.png)
+![img1](./picture/commit reset.png)
 
 #### 方式2: 使用 `git revert` 回退提交（修改历史）
 
