@@ -40,7 +40,7 @@ git reset --hard ** 会丢弃修改
 先切换到main主分支 在git merge 分支
 
 #### 方式2: 使用 `git rebase` 合并分支
-![img](https://./picture/rebase.png)
+![img](./picture/rebase.png)
 
 
 方法与上面相同
