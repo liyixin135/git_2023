@@ -34,7 +34,7 @@ git reset <版本号> : 回退版本，删除历史，不修改本地仓库
 
 git revert -n <版本号> : 重做版本，增加历史
 
-![revert](photo/rebase.png)
+![revert](photo/revert.png)
 
 # Third
 
