@@ -16,7 +16,7 @@ git reset --hard  **
 git checkout -- file.txt（指定文件）
 
 git checkout . (恢复整个目录)
-![img](./picture/cheackout.png)
+![img](./picture/checkout.png)
 
 
 ### 2. 回退提交的两种方式：
@@ -26,7 +26,7 @@ git checkout . (恢复整个目录)
 git reset --hard ** 会丢弃修改
 
 没有 --hard则会保留修改
-![img](./picture/commit reset.png)
+![img](./picture/commitreset.png)
 
 #### 方式2: 使用 `git revert` 回退提交（修改历史）
 
