@@ -16,7 +16,7 @@ git reset --hard  **
 git checkout -- file.txt（指定文件）
 
 git checkout . (恢复整个目录)
-![img](./picture/cheack.png)
+![img](./picture/cheackout.png)
 
 
 ### 2. 回退提交的两种方式：
