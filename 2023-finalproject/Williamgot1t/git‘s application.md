@@ -7,7 +7,7 @@
 用git reset可以撤销修改恢复到最后一次提交的状态
 
 git reset --hard  **
-![img](../picture/reset.png)
+![img](./picture/reset.png)
 
 #### 方式2: 使用 `git checkout` 恢复修改
 
